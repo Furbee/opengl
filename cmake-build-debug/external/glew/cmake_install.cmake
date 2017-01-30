@@ -1,4 +1,4 @@
-# Install script for directory: /Users/Oscar/Documents/opengl_new/external/glfw
+# Install script for directory: /Users/Oscar/Documents/opengl/external/glfw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src/cmake_install.cmake")
+  include("/Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src/cmake_install.cmake")
 
 endif()
 

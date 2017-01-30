@@ -4,19 +4,19 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/Oscar/Documents/opengl_new/external/glfw/src/cocoa_init.m" "/Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src/CMakeFiles/glfw.dir/cocoa_init.m.o"
-  "/Users/Oscar/Documents/opengl_new/external/glfw/src/cocoa_joystick.m" "/Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o"
-  "/Users/Oscar/Documents/opengl_new/external/glfw/src/cocoa_monitor.m" "/Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o"
-  "/Users/Oscar/Documents/opengl_new/external/glfw/src/cocoa_time.c" "/Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src/CMakeFiles/glfw.dir/cocoa_time.c.o"
-  "/Users/Oscar/Documents/opengl_new/external/glfw/src/cocoa_window.m" "/Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src/CMakeFiles/glfw.dir/cocoa_window.m.o"
-  "/Users/Oscar/Documents/opengl_new/external/glfw/src/context.c" "/Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src/CMakeFiles/glfw.dir/context.c.o"
-  "/Users/Oscar/Documents/opengl_new/external/glfw/src/init.c" "/Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src/CMakeFiles/glfw.dir/init.c.o"
-  "/Users/Oscar/Documents/opengl_new/external/glfw/src/input.c" "/Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src/CMakeFiles/glfw.dir/input.c.o"
-  "/Users/Oscar/Documents/opengl_new/external/glfw/src/monitor.c" "/Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src/CMakeFiles/glfw.dir/monitor.c.o"
-  "/Users/Oscar/Documents/opengl_new/external/glfw/src/nsgl_context.m" "/Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src/CMakeFiles/glfw.dir/nsgl_context.m.o"
-  "/Users/Oscar/Documents/opengl_new/external/glfw/src/posix_tls.c" "/Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src/CMakeFiles/glfw.dir/posix_tls.c.o"
-  "/Users/Oscar/Documents/opengl_new/external/glfw/src/vulkan.c" "/Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src/CMakeFiles/glfw.dir/vulkan.c.o"
-  "/Users/Oscar/Documents/opengl_new/external/glfw/src/window.c" "/Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src/CMakeFiles/glfw.dir/window.c.o"
+  "/Users/Oscar/Documents/opengl/external/glfw/src/cocoa_init.m" "/Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src/CMakeFiles/glfw.dir/cocoa_init.m.o"
+  "/Users/Oscar/Documents/opengl/external/glfw/src/cocoa_joystick.m" "/Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o"
+  "/Users/Oscar/Documents/opengl/external/glfw/src/cocoa_monitor.m" "/Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o"
+  "/Users/Oscar/Documents/opengl/external/glfw/src/cocoa_time.c" "/Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src/CMakeFiles/glfw.dir/cocoa_time.c.o"
+  "/Users/Oscar/Documents/opengl/external/glfw/src/cocoa_window.m" "/Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src/CMakeFiles/glfw.dir/cocoa_window.m.o"
+  "/Users/Oscar/Documents/opengl/external/glfw/src/context.c" "/Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src/CMakeFiles/glfw.dir/context.c.o"
+  "/Users/Oscar/Documents/opengl/external/glfw/src/init.c" "/Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src/CMakeFiles/glfw.dir/init.c.o"
+  "/Users/Oscar/Documents/opengl/external/glfw/src/input.c" "/Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src/CMakeFiles/glfw.dir/input.c.o"
+  "/Users/Oscar/Documents/opengl/external/glfw/src/monitor.c" "/Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src/CMakeFiles/glfw.dir/monitor.c.o"
+  "/Users/Oscar/Documents/opengl/external/glfw/src/nsgl_context.m" "/Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src/CMakeFiles/glfw.dir/nsgl_context.m.o"
+  "/Users/Oscar/Documents/opengl/external/glfw/src/posix_tls.c" "/Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src/CMakeFiles/glfw.dir/posix_tls.c.o"
+  "/Users/Oscar/Documents/opengl/external/glfw/src/vulkan.c" "/Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src/CMakeFiles/glfw.dir/vulkan.c.o"
+  "/Users/Oscar/Documents/opengl/external/glfw/src/window.c" "/Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src/CMakeFiles/glfw.dir/window.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

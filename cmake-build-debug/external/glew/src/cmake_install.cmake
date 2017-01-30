@@ -1,4 +1,4 @@
-# Install script for directory: /Users/Oscar/Documents/opengl_new/external/glfw/src
+# Install script for directory: /Users/Oscar/Documents/opengl/external/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

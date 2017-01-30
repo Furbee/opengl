@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Oscar/Documents/opengl_new
+CMAKE_SOURCE_DIR = /Users/Oscar/Documents/opengl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Oscar/Documents/opengl_new/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/Oscar/Documents/opengl/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include external/glew/src/CMakeFiles/glfw.dir/depend.make
@@ -59,16 +59,16 @@ include external/glew/src/CMakeFiles/glfw.dir/flags.make
 
 external/glew/src/CMakeFiles/glfw.dir/context.c.o: external/glew/src/CMakeFiles/glfw.dir/flags.make
 external/glew/src/CMakeFiles/glfw.dir/context.c.o: ../external/glfw/src/context.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Oscar/Documents/opengl_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object external/glew/src/CMakeFiles/glfw.dir/context.c.o"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/context.c.o   -c /Users/Oscar/Documents/opengl_new/external/glfw/src/context.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Oscar/Documents/opengl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object external/glew/src/CMakeFiles/glfw.dir/context.c.o"
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/context.c.o   -c /Users/Oscar/Documents/opengl/external/glfw/src/context.c
 
 external/glew/src/CMakeFiles/glfw.dir/context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/context.c.i"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Oscar/Documents/opengl_new/external/glfw/src/context.c > CMakeFiles/glfw.dir/context.c.i
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Oscar/Documents/opengl/external/glfw/src/context.c > CMakeFiles/glfw.dir/context.c.i
 
 external/glew/src/CMakeFiles/glfw.dir/context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/context.c.s"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Oscar/Documents/opengl_new/external/glfw/src/context.c -o CMakeFiles/glfw.dir/context.c.s
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Oscar/Documents/opengl/external/glfw/src/context.c -o CMakeFiles/glfw.dir/context.c.s
 
 external/glew/src/CMakeFiles/glfw.dir/context.c.o.requires:
 
@@ -83,16 +83,16 @@ external/glew/src/CMakeFiles/glfw.dir/context.c.o.provides.build: external/glew/
 
 external/glew/src/CMakeFiles/glfw.dir/init.c.o: external/glew/src/CMakeFiles/glfw.dir/flags.make
 external/glew/src/CMakeFiles/glfw.dir/init.c.o: ../external/glfw/src/init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Oscar/Documents/opengl_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object external/glew/src/CMakeFiles/glfw.dir/init.c.o"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/init.c.o   -c /Users/Oscar/Documents/opengl_new/external/glfw/src/init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Oscar/Documents/opengl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object external/glew/src/CMakeFiles/glfw.dir/init.c.o"
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/init.c.o   -c /Users/Oscar/Documents/opengl/external/glfw/src/init.c
 
 external/glew/src/CMakeFiles/glfw.dir/init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/init.c.i"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Oscar/Documents/opengl_new/external/glfw/src/init.c > CMakeFiles/glfw.dir/init.c.i
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Oscar/Documents/opengl/external/glfw/src/init.c > CMakeFiles/glfw.dir/init.c.i
 
 external/glew/src/CMakeFiles/glfw.dir/init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/init.c.s"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Oscar/Documents/opengl_new/external/glfw/src/init.c -o CMakeFiles/glfw.dir/init.c.s
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Oscar/Documents/opengl/external/glfw/src/init.c -o CMakeFiles/glfw.dir/init.c.s
 
 external/glew/src/CMakeFiles/glfw.dir/init.c.o.requires:
 
@@ -107,16 +107,16 @@ external/glew/src/CMakeFiles/glfw.dir/init.c.o.provides.build: external/glew/src
 
 external/glew/src/CMakeFiles/glfw.dir/input.c.o: external/glew/src/CMakeFiles/glfw.dir/flags.make
 external/glew/src/CMakeFiles/glfw.dir/input.c.o: ../external/glfw/src/input.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Oscar/Documents/opengl_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object external/glew/src/CMakeFiles/glfw.dir/input.c.o"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/input.c.o   -c /Users/Oscar/Documents/opengl_new/external/glfw/src/input.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Oscar/Documents/opengl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object external/glew/src/CMakeFiles/glfw.dir/input.c.o"
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/input.c.o   -c /Users/Oscar/Documents/opengl/external/glfw/src/input.c
 
 external/glew/src/CMakeFiles/glfw.dir/input.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/input.c.i"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Oscar/Documents/opengl_new/external/glfw/src/input.c > CMakeFiles/glfw.dir/input.c.i
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Oscar/Documents/opengl/external/glfw/src/input.c > CMakeFiles/glfw.dir/input.c.i
 
 external/glew/src/CMakeFiles/glfw.dir/input.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/input.c.s"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Oscar/Documents/opengl_new/external/glfw/src/input.c -o CMakeFiles/glfw.dir/input.c.s
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Oscar/Documents/opengl/external/glfw/src/input.c -o CMakeFiles/glfw.dir/input.c.s
 
 external/glew/src/CMakeFiles/glfw.dir/input.c.o.requires:
 
@@ -131,16 +131,16 @@ external/glew/src/CMakeFiles/glfw.dir/input.c.o.provides.build: external/glew/sr
 
 external/glew/src/CMakeFiles/glfw.dir/monitor.c.o: external/glew/src/CMakeFiles/glfw.dir/flags.make
 external/glew/src/CMakeFiles/glfw.dir/monitor.c.o: ../external/glfw/src/monitor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Oscar/Documents/opengl_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object external/glew/src/CMakeFiles/glfw.dir/monitor.c.o"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/monitor.c.o   -c /Users/Oscar/Documents/opengl_new/external/glfw/src/monitor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Oscar/Documents/opengl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object external/glew/src/CMakeFiles/glfw.dir/monitor.c.o"
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/monitor.c.o   -c /Users/Oscar/Documents/opengl/external/glfw/src/monitor.c
 
 external/glew/src/CMakeFiles/glfw.dir/monitor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/monitor.c.i"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Oscar/Documents/opengl_new/external/glfw/src/monitor.c > CMakeFiles/glfw.dir/monitor.c.i
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Oscar/Documents/opengl/external/glfw/src/monitor.c > CMakeFiles/glfw.dir/monitor.c.i
 
 external/glew/src/CMakeFiles/glfw.dir/monitor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/monitor.c.s"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Oscar/Documents/opengl_new/external/glfw/src/monitor.c -o CMakeFiles/glfw.dir/monitor.c.s
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Oscar/Documents/opengl/external/glfw/src/monitor.c -o CMakeFiles/glfw.dir/monitor.c.s
 
 external/glew/src/CMakeFiles/glfw.dir/monitor.c.o.requires:
 
@@ -155,16 +155,16 @@ external/glew/src/CMakeFiles/glfw.dir/monitor.c.o.provides.build: external/glew/
 
 external/glew/src/CMakeFiles/glfw.dir/vulkan.c.o: external/glew/src/CMakeFiles/glfw.dir/flags.make
 external/glew/src/CMakeFiles/glfw.dir/vulkan.c.o: ../external/glfw/src/vulkan.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Oscar/Documents/opengl_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object external/glew/src/CMakeFiles/glfw.dir/vulkan.c.o"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/vulkan.c.o   -c /Users/Oscar/Documents/opengl_new/external/glfw/src/vulkan.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Oscar/Documents/opengl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object external/glew/src/CMakeFiles/glfw.dir/vulkan.c.o"
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/vulkan.c.o   -c /Users/Oscar/Documents/opengl/external/glfw/src/vulkan.c
 
 external/glew/src/CMakeFiles/glfw.dir/vulkan.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/vulkan.c.i"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Oscar/Documents/opengl_new/external/glfw/src/vulkan.c > CMakeFiles/glfw.dir/vulkan.c.i
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Oscar/Documents/opengl/external/glfw/src/vulkan.c > CMakeFiles/glfw.dir/vulkan.c.i
 
 external/glew/src/CMakeFiles/glfw.dir/vulkan.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/vulkan.c.s"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Oscar/Documents/opengl_new/external/glfw/src/vulkan.c -o CMakeFiles/glfw.dir/vulkan.c.s
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Oscar/Documents/opengl/external/glfw/src/vulkan.c -o CMakeFiles/glfw.dir/vulkan.c.s
 
 external/glew/src/CMakeFiles/glfw.dir/vulkan.c.o.requires:
 
@@ -179,16 +179,16 @@ external/glew/src/CMakeFiles/glfw.dir/vulkan.c.o.provides.build: external/glew/s
 
 external/glew/src/CMakeFiles/glfw.dir/window.c.o: external/glew/src/CMakeFiles/glfw.dir/flags.make
 external/glew/src/CMakeFiles/glfw.dir/window.c.o: ../external/glfw/src/window.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Oscar/Documents/opengl_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object external/glew/src/CMakeFiles/glfw.dir/window.c.o"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/window.c.o   -c /Users/Oscar/Documents/opengl_new/external/glfw/src/window.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Oscar/Documents/opengl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object external/glew/src/CMakeFiles/glfw.dir/window.c.o"
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/window.c.o   -c /Users/Oscar/Documents/opengl/external/glfw/src/window.c
 
 external/glew/src/CMakeFiles/glfw.dir/window.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/window.c.i"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Oscar/Documents/opengl_new/external/glfw/src/window.c > CMakeFiles/glfw.dir/window.c.i
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Oscar/Documents/opengl/external/glfw/src/window.c > CMakeFiles/glfw.dir/window.c.i
 
 external/glew/src/CMakeFiles/glfw.dir/window.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/window.c.s"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Oscar/Documents/opengl_new/external/glfw/src/window.c -o CMakeFiles/glfw.dir/window.c.s
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Oscar/Documents/opengl/external/glfw/src/window.c -o CMakeFiles/glfw.dir/window.c.s
 
 external/glew/src/CMakeFiles/glfw.dir/window.c.o.requires:
 
@@ -203,16 +203,16 @@ external/glew/src/CMakeFiles/glfw.dir/window.c.o.provides.build: external/glew/s
 
 external/glew/src/CMakeFiles/glfw.dir/cocoa_init.m.o: external/glew/src/CMakeFiles/glfw.dir/flags.make
 external/glew/src/CMakeFiles/glfw.dir/cocoa_init.m.o: ../external/glfw/src/cocoa_init.m
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Oscar/Documents/opengl_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object external/glew/src/CMakeFiles/glfw.dir/cocoa_init.m.o"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/cocoa_init.m.o   -c /Users/Oscar/Documents/opengl_new/external/glfw/src/cocoa_init.m
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Oscar/Documents/opengl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object external/glew/src/CMakeFiles/glfw.dir/cocoa_init.m.o"
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/cocoa_init.m.o   -c /Users/Oscar/Documents/opengl/external/glfw/src/cocoa_init.m
 
 external/glew/src/CMakeFiles/glfw.dir/cocoa_init.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/cocoa_init.m.i"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Oscar/Documents/opengl_new/external/glfw/src/cocoa_init.m > CMakeFiles/glfw.dir/cocoa_init.m.i
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Oscar/Documents/opengl/external/glfw/src/cocoa_init.m > CMakeFiles/glfw.dir/cocoa_init.m.i
 
 external/glew/src/CMakeFiles/glfw.dir/cocoa_init.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/cocoa_init.m.s"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Oscar/Documents/opengl_new/external/glfw/src/cocoa_init.m -o CMakeFiles/glfw.dir/cocoa_init.m.s
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Oscar/Documents/opengl/external/glfw/src/cocoa_init.m -o CMakeFiles/glfw.dir/cocoa_init.m.s
 
 external/glew/src/CMakeFiles/glfw.dir/cocoa_init.m.o.requires:
 
@@ -227,16 +227,16 @@ external/glew/src/CMakeFiles/glfw.dir/cocoa_init.m.o.provides.build: external/gl
 
 external/glew/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o: external/glew/src/CMakeFiles/glfw.dir/flags.make
 external/glew/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o: ../external/glfw/src/cocoa_joystick.m
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Oscar/Documents/opengl_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object external/glew/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/cocoa_joystick.m.o   -c /Users/Oscar/Documents/opengl_new/external/glfw/src/cocoa_joystick.m
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Oscar/Documents/opengl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object external/glew/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o"
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/cocoa_joystick.m.o   -c /Users/Oscar/Documents/opengl/external/glfw/src/cocoa_joystick.m
 
 external/glew/src/CMakeFiles/glfw.dir/cocoa_joystick.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/cocoa_joystick.m.i"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Oscar/Documents/opengl_new/external/glfw/src/cocoa_joystick.m > CMakeFiles/glfw.dir/cocoa_joystick.m.i
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Oscar/Documents/opengl/external/glfw/src/cocoa_joystick.m > CMakeFiles/glfw.dir/cocoa_joystick.m.i
 
 external/glew/src/CMakeFiles/glfw.dir/cocoa_joystick.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/cocoa_joystick.m.s"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Oscar/Documents/opengl_new/external/glfw/src/cocoa_joystick.m -o CMakeFiles/glfw.dir/cocoa_joystick.m.s
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Oscar/Documents/opengl/external/glfw/src/cocoa_joystick.m -o CMakeFiles/glfw.dir/cocoa_joystick.m.s
 
 external/glew/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o.requires:
 
@@ -251,16 +251,16 @@ external/glew/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o.provides.build: externa
 
 external/glew/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o: external/glew/src/CMakeFiles/glfw.dir/flags.make
 external/glew/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o: ../external/glfw/src/cocoa_monitor.m
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Oscar/Documents/opengl_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object external/glew/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/cocoa_monitor.m.o   -c /Users/Oscar/Documents/opengl_new/external/glfw/src/cocoa_monitor.m
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Oscar/Documents/opengl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object external/glew/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o"
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/cocoa_monitor.m.o   -c /Users/Oscar/Documents/opengl/external/glfw/src/cocoa_monitor.m
 
 external/glew/src/CMakeFiles/glfw.dir/cocoa_monitor.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/cocoa_monitor.m.i"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Oscar/Documents/opengl_new/external/glfw/src/cocoa_monitor.m > CMakeFiles/glfw.dir/cocoa_monitor.m.i
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Oscar/Documents/opengl/external/glfw/src/cocoa_monitor.m > CMakeFiles/glfw.dir/cocoa_monitor.m.i
 
 external/glew/src/CMakeFiles/glfw.dir/cocoa_monitor.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/cocoa_monitor.m.s"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Oscar/Documents/opengl_new/external/glfw/src/cocoa_monitor.m -o CMakeFiles/glfw.dir/cocoa_monitor.m.s
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Oscar/Documents/opengl/external/glfw/src/cocoa_monitor.m -o CMakeFiles/glfw.dir/cocoa_monitor.m.s
 
 external/glew/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o.requires:
 
@@ -275,16 +275,16 @@ external/glew/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o.provides.build: external
 
 external/glew/src/CMakeFiles/glfw.dir/cocoa_window.m.o: external/glew/src/CMakeFiles/glfw.dir/flags.make
 external/glew/src/CMakeFiles/glfw.dir/cocoa_window.m.o: ../external/glfw/src/cocoa_window.m
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Oscar/Documents/opengl_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object external/glew/src/CMakeFiles/glfw.dir/cocoa_window.m.o"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/cocoa_window.m.o   -c /Users/Oscar/Documents/opengl_new/external/glfw/src/cocoa_window.m
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Oscar/Documents/opengl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object external/glew/src/CMakeFiles/glfw.dir/cocoa_window.m.o"
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/cocoa_window.m.o   -c /Users/Oscar/Documents/opengl/external/glfw/src/cocoa_window.m
 
 external/glew/src/CMakeFiles/glfw.dir/cocoa_window.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/cocoa_window.m.i"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Oscar/Documents/opengl_new/external/glfw/src/cocoa_window.m > CMakeFiles/glfw.dir/cocoa_window.m.i
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Oscar/Documents/opengl/external/glfw/src/cocoa_window.m > CMakeFiles/glfw.dir/cocoa_window.m.i
 
 external/glew/src/CMakeFiles/glfw.dir/cocoa_window.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/cocoa_window.m.s"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Oscar/Documents/opengl_new/external/glfw/src/cocoa_window.m -o CMakeFiles/glfw.dir/cocoa_window.m.s
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Oscar/Documents/opengl/external/glfw/src/cocoa_window.m -o CMakeFiles/glfw.dir/cocoa_window.m.s
 
 external/glew/src/CMakeFiles/glfw.dir/cocoa_window.m.o.requires:
 
@@ -299,16 +299,16 @@ external/glew/src/CMakeFiles/glfw.dir/cocoa_window.m.o.provides.build: external/
 
 external/glew/src/CMakeFiles/glfw.dir/cocoa_time.c.o: external/glew/src/CMakeFiles/glfw.dir/flags.make
 external/glew/src/CMakeFiles/glfw.dir/cocoa_time.c.o: ../external/glfw/src/cocoa_time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Oscar/Documents/opengl_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object external/glew/src/CMakeFiles/glfw.dir/cocoa_time.c.o"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/cocoa_time.c.o   -c /Users/Oscar/Documents/opengl_new/external/glfw/src/cocoa_time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Oscar/Documents/opengl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object external/glew/src/CMakeFiles/glfw.dir/cocoa_time.c.o"
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/cocoa_time.c.o   -c /Users/Oscar/Documents/opengl/external/glfw/src/cocoa_time.c
 
 external/glew/src/CMakeFiles/glfw.dir/cocoa_time.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/cocoa_time.c.i"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Oscar/Documents/opengl_new/external/glfw/src/cocoa_time.c > CMakeFiles/glfw.dir/cocoa_time.c.i
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Oscar/Documents/opengl/external/glfw/src/cocoa_time.c > CMakeFiles/glfw.dir/cocoa_time.c.i
 
 external/glew/src/CMakeFiles/glfw.dir/cocoa_time.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/cocoa_time.c.s"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Oscar/Documents/opengl_new/external/glfw/src/cocoa_time.c -o CMakeFiles/glfw.dir/cocoa_time.c.s
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Oscar/Documents/opengl/external/glfw/src/cocoa_time.c -o CMakeFiles/glfw.dir/cocoa_time.c.s
 
 external/glew/src/CMakeFiles/glfw.dir/cocoa_time.c.o.requires:
 
@@ -323,16 +323,16 @@ external/glew/src/CMakeFiles/glfw.dir/cocoa_time.c.o.provides.build: external/gl
 
 external/glew/src/CMakeFiles/glfw.dir/posix_tls.c.o: external/glew/src/CMakeFiles/glfw.dir/flags.make
 external/glew/src/CMakeFiles/glfw.dir/posix_tls.c.o: ../external/glfw/src/posix_tls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Oscar/Documents/opengl_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object external/glew/src/CMakeFiles/glfw.dir/posix_tls.c.o"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/posix_tls.c.o   -c /Users/Oscar/Documents/opengl_new/external/glfw/src/posix_tls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Oscar/Documents/opengl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object external/glew/src/CMakeFiles/glfw.dir/posix_tls.c.o"
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/posix_tls.c.o   -c /Users/Oscar/Documents/opengl/external/glfw/src/posix_tls.c
 
 external/glew/src/CMakeFiles/glfw.dir/posix_tls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/posix_tls.c.i"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Oscar/Documents/opengl_new/external/glfw/src/posix_tls.c > CMakeFiles/glfw.dir/posix_tls.c.i
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Oscar/Documents/opengl/external/glfw/src/posix_tls.c > CMakeFiles/glfw.dir/posix_tls.c.i
 
 external/glew/src/CMakeFiles/glfw.dir/posix_tls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/posix_tls.c.s"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Oscar/Documents/opengl_new/external/glfw/src/posix_tls.c -o CMakeFiles/glfw.dir/posix_tls.c.s
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Oscar/Documents/opengl/external/glfw/src/posix_tls.c -o CMakeFiles/glfw.dir/posix_tls.c.s
 
 external/glew/src/CMakeFiles/glfw.dir/posix_tls.c.o.requires:
 
@@ -347,16 +347,16 @@ external/glew/src/CMakeFiles/glfw.dir/posix_tls.c.o.provides.build: external/gle
 
 external/glew/src/CMakeFiles/glfw.dir/nsgl_context.m.o: external/glew/src/CMakeFiles/glfw.dir/flags.make
 external/glew/src/CMakeFiles/glfw.dir/nsgl_context.m.o: ../external/glfw/src/nsgl_context.m
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Oscar/Documents/opengl_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object external/glew/src/CMakeFiles/glfw.dir/nsgl_context.m.o"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/nsgl_context.m.o   -c /Users/Oscar/Documents/opengl_new/external/glfw/src/nsgl_context.m
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Oscar/Documents/opengl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object external/glew/src/CMakeFiles/glfw.dir/nsgl_context.m.o"
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/nsgl_context.m.o   -c /Users/Oscar/Documents/opengl/external/glfw/src/nsgl_context.m
 
 external/glew/src/CMakeFiles/glfw.dir/nsgl_context.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/nsgl_context.m.i"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Oscar/Documents/opengl_new/external/glfw/src/nsgl_context.m > CMakeFiles/glfw.dir/nsgl_context.m.i
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Oscar/Documents/opengl/external/glfw/src/nsgl_context.m > CMakeFiles/glfw.dir/nsgl_context.m.i
 
 external/glew/src/CMakeFiles/glfw.dir/nsgl_context.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/nsgl_context.m.s"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Oscar/Documents/opengl_new/external/glfw/src/nsgl_context.m -o CMakeFiles/glfw.dir/nsgl_context.m.s
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Oscar/Documents/opengl/external/glfw/src/nsgl_context.m -o CMakeFiles/glfw.dir/nsgl_context.m.s
 
 external/glew/src/CMakeFiles/glfw.dir/nsgl_context.m.o.requires:
 
@@ -403,9 +403,9 @@ external/glew/src/libglfw3.a: external/glew/src/CMakeFiles/glfw.dir/posix_tls.c.
 external/glew/src/libglfw3.a: external/glew/src/CMakeFiles/glfw.dir/nsgl_context.m.o
 external/glew/src/libglfw3.a: external/glew/src/CMakeFiles/glfw.dir/build.make
 external/glew/src/libglfw3.a: external/glew/src/CMakeFiles/glfw.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Oscar/Documents/opengl_new/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking C static library libglfw3.a"
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw.dir/cmake_clean_target.cmake
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glfw.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Oscar/Documents/opengl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking C static library libglfw3.a"
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw.dir/cmake_clean_target.cmake
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glfw.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 external/glew/src/CMakeFiles/glfw.dir/build: external/glew/src/libglfw3.a
@@ -429,10 +429,10 @@ external/glew/src/CMakeFiles/glfw.dir/requires: external/glew/src/CMakeFiles/glf
 .PHONY : external/glew/src/CMakeFiles/glfw.dir/requires
 
 external/glew/src/CMakeFiles/glfw.dir/clean:
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw.dir/cmake_clean.cmake
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw.dir/cmake_clean.cmake
 .PHONY : external/glew/src/CMakeFiles/glfw.dir/clean
 
 external/glew/src/CMakeFiles/glfw.dir/depend:
-	cd /Users/Oscar/Documents/opengl_new/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Oscar/Documents/opengl_new /Users/Oscar/Documents/opengl_new/external/glfw/src /Users/Oscar/Documents/opengl_new/cmake-build-debug /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src /Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src/CMakeFiles/glfw.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/Oscar/Documents/opengl/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Oscar/Documents/opengl /Users/Oscar/Documents/opengl/external/glfw/src /Users/Oscar/Documents/opengl/cmake-build-debug /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src /Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src/CMakeFiles/glfw.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : external/glew/src/CMakeFiles/glfw.dir/depend
 

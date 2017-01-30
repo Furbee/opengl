@@ -6,5 +6,5 @@ CXX_FLAGS =  -Wall -std=c++11 -g -isysroot /Applications/Xcode.app/Contents/Deve
 
 CXX_DEFINES = -DGLEW_STATIC -DTW_STATIC
 
-CXX_INCLUDES = -I/Users/Oscar/Documents/opengl_new/external/glfw/include -I/Users/Oscar/Documents/opengl_new/external/glfw/deps -I/Users/Oscar/Documents/opengl_new/external/glm -I/Users/Oscar/Documents/opengl_new/external/glew/include 
+CXX_INCLUDES = -I/Users/Oscar/Documents/opengl/external/glfw/include -I/Users/Oscar/Documents/opengl/external/glfw/deps -I/Users/Oscar/Documents/opengl/external/glm -I/Users/Oscar/Documents/opengl/external/glew/include 
 

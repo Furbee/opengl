@@ -92,7 +92,7 @@ GL/glext.h
 GL/glu.h
 -
 
-/Users/Oscar/Documents/opengl_new/main.cpp
+/Users/Oscar/Documents/opengl/main.cpp
 iostream
 -
 GL/glew.h

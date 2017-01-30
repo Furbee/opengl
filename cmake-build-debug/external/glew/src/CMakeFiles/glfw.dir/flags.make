@@ -6,5 +6,5 @@ C_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacO
 
 C_DEFINES = -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I/Users/Oscar/Documents/opengl_new/external/glfw/include -I/Users/Oscar/Documents/opengl_new/external/glfw/src -I/Users/Oscar/Documents/opengl_new/cmake-build-debug/external/glew/src 
+C_INCLUDES = -I/Users/Oscar/Documents/opengl/external/glfw/include -I/Users/Oscar/Documents/opengl/external/glfw/src -I/Users/Oscar/Documents/opengl/cmake-build-debug/external/glew/src 
 

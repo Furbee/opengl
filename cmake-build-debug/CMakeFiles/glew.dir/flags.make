@@ -6,5 +6,5 @@ C_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacO
 
 C_DEFINES = -DGLEW_STATIC -DTW_STATIC
 
-C_INCLUDES = -I/Users/Oscar/Documents/opengl_new/external/glfw/include -I/Users/Oscar/Documents/opengl_new/external/glfw/deps -I/Users/Oscar/Documents/opengl_new/external/glm -I/Users/Oscar/Documents/opengl_new/external/glew/include 
+C_INCLUDES = -I/Users/Oscar/Documents/opengl/external/glfw/include -I/Users/Oscar/Documents/opengl/external/glfw/deps -I/Users/Oscar/Documents/opengl/external/glm -I/Users/Oscar/Documents/opengl/external/glew/include 
 
